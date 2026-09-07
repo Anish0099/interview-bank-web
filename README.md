@@ -24,6 +24,8 @@ Open [http://localhost:3000](http://localhost:3000).
 
 Import this repo into Vercel and set the two env vars above. The default build/output settings work as-is.
 
+Full end-to-end setup (Neon, Reddit app, Groq, Gemini, Render, Vercel, custom domain, Search Console) lives in the API repo: [SETUP.md](https://github.com/Anish0099/interview-bank-api/blob/main/SETUP.md).
+
 ## Structure
 
 - `app/` — routes, layouts, `sitemap.ts`, `robots.ts`, dynamic OG image routes.
