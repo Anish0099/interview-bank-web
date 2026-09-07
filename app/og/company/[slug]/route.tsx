@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { api, safe } from "@/lib/api";
 import type { Company } from "@/lib/types";
 
-export const runtime = "edge";
+export const runtime = "nodejs";
 const SIZE = { width: 1200, height: 630 };
 
 export async function GET(
